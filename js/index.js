@@ -7,9 +7,9 @@ let nodeList = document.querySelectorAll("button");
 // Load your images on page-load
 function preloader() {
     const imagesPaths = [
-        "../img/solar.jpg",
-        "../img/wind.jpg",
-        "../img/geothermal.jpg"
+        "img/solar.jpg",
+        "img/wind.jpg",
+        "img/geothermal.jpg"
     ];
     const images = [];
     for (let i = 0; i < imagesPaths.length; i++) {
